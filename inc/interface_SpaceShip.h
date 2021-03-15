@@ -14,7 +14,7 @@ enum ArmamentType_t : uint8_t
 
 enum PropulsionSys_t : uint8_t
 {
-    HYPER_DRIVE = 0,
+    WARP_DRIVE = 0,
     HYPER_JET,
     NONE
 };
@@ -29,7 +29,7 @@ public:
     ~Iface_SpaceShip() = default; 
 
     void PrintStatus(); 
-    virtual void TakeAHit(uint16_t damage) = 0;
+    virtual void TakeAHit(ArmamentType_t damage) = 0;
     virtual bool IsStillFlying() = 0;
 
 private: 
