@@ -3,38 +3,33 @@
 
 #include <cstdint>
 
-using namespace std; 
+using namespace std;
 
 enum ArmamentType_t : uint8_t
 {
     BLASTER_CANNON = 0,
     RASPBERRY_JAM,
-    NONE  
 };
 
 enum PropulsionSys_t : uint8_t
 {
     WARP_DRIVE = 0,
     HYPER_JET,
-    NONE
 };
 
-// Millennium Falcon 
-// Eagle 5
-
-class Iface_SpaceShip  
+class Iface_SpaceShip
 {
-public: 
-    Iface_SpaceShip(float kessleRunTime, ArmamentType_t guns, PropulsionSys_t prop); 
-    ~Iface_SpaceShip() = default; 
+public:
+    Iface_SpaceShip(ArmamentType_t guns, PropulsionSys_t prop);
+    ~Iface_SpaceShip() = default;
 
-    void PrintStatus(); 
+    void PrintStatus();
     virtual void TakeAHit(ArmamentType_t hitType) = 0;
     virtual bool IsStillMoving() = 0;
 
-private: 
-    const char* mShipName   {""};
-    float mKesselRunTime;
+protected:
+    const char *mShipName{""};
+    float mTopSpeed{0};
     ArmamentType_t mArmament;
     PropulsionSys_t mPropulsion;
 };

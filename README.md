@@ -44,7 +44,7 @@ The different ship types have the following special abilities.
 
 | Ship Type         | Special Ability                                                                                             |
 |-------------------|-------------------------------------------------------------------------------------------------------------|
-| Eagle 5           | Can take an extra hit if the hit is Raspberry Jam, Barf  will clean it up.                                  |
+| Eagle 5           | Can take an 4 Raspberry Jam hits instead of 3, Barf is used to cleaning it up.                                  |
 | Millennium Falcon | The first time you check if the ship is moving, it will  report that it is not moving. Old Smugglers trick. |
 
 ## Requirements
@@ -53,4 +53,10 @@ Your ships will be implemented as shown in the main function. Each ship will be 
 
 You will need to implement child classes in *Eagle5.cpp* and *MillenniumFalcon.cpp*. You will also need to implement the function "void PrintStatus()" in the interface class. 
 
+Your output will be compared to the output in the file *CorrectOutput.txt*. It must exactly match in order to pass. 
+
 Your code will be compiled and run with gcc version 9. 
+ 
+Your code will use -Wall and -Werror to flag all warnings and errors. 
+
+Command to compile on Unix systems - `g++ -Wall -Werror -o test main.cpp src/interface_SpaceShip.cpp src/MillenniumFalcon.cpp src/Eagle5.cpp`

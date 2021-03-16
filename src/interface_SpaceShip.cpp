@@ -1,13 +1,11 @@
-#include "interface_SpaceShip.h"
+#include "../inc/interface_SpaceShip.h"
+#include <cstdio>
 
-Iface_SpaceShip::Iface_SpaceShip(float kessleRunTime, ArmamentType_t guns, 
-    PropulsionSys_t prop) :
-    mKesselRunTime(kessleRunTime),
-    mArmament(guns),
-    mPropulsion(prop), 
+Iface_SpaceShip::Iface_SpaceShip(ArmamentType_t guns, PropulsionSys_t prop) : mArmament(guns),
+                                                                              mPropulsion(prop)
 {
-    if(mArmament == ArmamentType_t::BLASTER_CANNON && 
-        mPropulsion == PropulsionSys_t::HYPER_DRIVE)
+    if (mArmament == ArmamentType_t::BLASTER_CANNON &&
+        mPropulsion == PropulsionSys_t::WARP_DRIVE)
     {
         mShipName = "Millenium Falcon";
     }
@@ -22,4 +20,4 @@ Iface_SpaceShip::Iface_SpaceShip(float kessleRunTime, ArmamentType_t guns,
     }
 }
 
-/* Implement void PrintStatus() Here*/ 
+/* Implement PrintStatus() Here */
