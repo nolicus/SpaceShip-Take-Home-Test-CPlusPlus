@@ -1,0 +1,255 @@
+Starting Space Ship Battle - Creating Ships
+
+... the battle commences ...
+*** ALL SHIPS HIT WITH BLASTER CANNON ***
+Millenium Falcon:
+       speed = 1041.000000
+     weapons = Blaster Cannon
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Eagle 5:
+       speed = 36910.000000
+     weapons = Raspberry Jam
+  propulsion = Hyper Jet
+    isMoving = TRUE
+
+Unholy Offspring:
+       speed = 1041.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Unholy Offspring:
+       speed = 1041.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = TRUE
+
+*** ALL SHIPS HIT WITH RASPBERRY JAM ***
+Millenium Falcon:
+       speed = 520.500000
+     weapons = Blaster Cannon
+  propulsion = Warp Drive
+    isMoving = TRUE
+
+Eagle 5:
+       speed = 36910.000000
+     weapons = Raspberry Jam
+  propulsion = Hyper Jet
+    isMoving = TRUE
+
+Unholy Offspring:
+       speed = 520.500000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = TRUE
+
+Unholy Offspring:
+       speed = 1041.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = TRUE
+
+*** ALL SHIPS HIT WITH BLASTER CANNON ***
+Millenium Falcon:
+       speed = 520.500000
+     weapons = Blaster Cannon
+  propulsion = Warp Drive
+    isMoving = TRUE
+
+Eagle 5:
+       speed = 36910.000000
+     weapons = Raspberry Jam
+  propulsion = Hyper Jet
+    isMoving = TRUE
+
+Unholy Offspring:
+       speed = 520.500000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = TRUE
+
+Unholy Offspring:
+       speed = 1041.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = TRUE
+
+*** ALL SHIPS HIT WITH RASPBERRY JAM ***
+Millenium Falcon:
+       speed = 260.250000
+     weapons = Blaster Cannon
+  propulsion = Warp Drive
+    isMoving = TRUE
+
+Eagle 5:
+       speed = 18455.000000
+     weapons = Raspberry Jam
+  propulsion = Hyper Jet
+    isMoving = TRUE
+
+Unholy Offspring:
+       speed = 260.250000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = TRUE
+
+Unholy Offspring:
+       speed = 520.500000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = TRUE
+
+*** ALL SHIPS HIT WITH BLASTER CANNON ***
+Millenium Falcon:
+       speed = 0.000000
+     weapons = Blaster Cannon
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Eagle 5:
+       speed = 17455.000000
+     weapons = Raspberry Jam
+  propulsion = Hyper Jet
+    isMoving = TRUE
+
+Unholy Offspring:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Unholy Offspring:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+*** ALL SHIPS HIT WITH RASPBERRY JAM ***
+Millenium Falcon:
+       speed = 0.000000
+     weapons = Blaster Cannon
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Eagle 5:
+       speed = 8727.500000
+     weapons = Raspberry Jam
+  propulsion = Hyper Jet
+    isMoving = TRUE
+
+Unholy Offspring:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Unholy Offspring:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+*** ALL SHIPS HIT WITH BLASTER CANNON ***
+Millenium Falcon:
+       speed = 0.000000
+     weapons = Blaster Cannon
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Eagle 5:
+       speed = 7727.500000
+     weapons = Raspberry Jam
+  propulsion = Hyper Jet
+    isMoving = TRUE
+
+Unholy Offspring:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Unholy Offspring:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+*** ALL SHIPS HIT WITH RASPBERRY JAM ***
+Millenium Falcon:
+       speed = 0.000000
+     weapons = Blaster Cannon
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Eagle 5:
+       speed = 3863.750000
+     weapons = Raspberry Jam
+  propulsion = Hyper Jet
+    isMoving = TRUE
+
+Unholy Offspring:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Unholy Offspring:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+*** ALL SHIPS HIT WITH BLASTER CANNON ***
+Millenium Falcon:
+       speed = 0.000000
+     weapons = Blaster Cannon
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Eagle 5:
+       speed = 2863.750000
+     weapons = Raspberry Jam
+  propulsion = Hyper Jet
+    isMoving = TRUE
+
+Unholy Offspring:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Unholy Offspring:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+*** ALL SHIPS HIT WITH RASPBERRY JAM ***
+Millenium Falcon:
+       speed = 0.000000
+     weapons = Blaster Cannon
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Eagle 5:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Hyper Jet
+    isMoving = FALSE
+
+Unholy Offspring:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Unholy Offspring:
+       speed = 0.000000
+     weapons = Raspberry Jam
+  propulsion = Warp Drive
+    isMoving = FALSE
+
+Space Battle Complete!
+Press ENTER to close
