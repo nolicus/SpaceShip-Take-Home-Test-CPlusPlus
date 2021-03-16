@@ -23,7 +23,7 @@ Clone the repository located at [C++ Coding Test Repo](https://github.com/nolicu
 
 Here are the specs for the different spaceship implementations. You will need to write the classes, inheriting from the abstract class "Iface_SpaceShip_t" and defining the pure virtual function you intherited. 
 
-Each Spaceship is made up of the following components. You will need to implement the *TakeAHit* function to implement these behaviors. Note that a Mellinnium Flacon clone can take a hit from both an Eagle 5 clone and another Mellinnium Falcon. The same pattern applies for the Eagle 5 ships. 
+Each Spaceship is made up of the following components. You will need to implement the *TakeAHit* and *IsStillMoving* function to implement these behaviors. Note that a Mellinnium Flacon clone can take a hit from both an Eagle 5 clone and another Mellinnium Falcon. The same pattern applies for the Eagle 5 ships. 
 
 ### Propulsion
 This determines the top speed of a space ship. Assing the spaceships top speed based on the Propulsion System constructed into the ship. 
@@ -53,15 +53,13 @@ The different ship types have the following special abilities.
 
 ## Requirements
 
-Your ships will be implemented as shown in the main function. Each ship will be added in to a vector of ships. Each of the ships will attack one another until all the ships have been eliminated. The battle log will be reported and compared to the original battle log. To pass the test your battle log must look the same and your space ship objects must report the correct lightspeed after each attack. See *main.cpp* for the exact seequence that will be used to generate the battle log. 
+Your ships will be implemented as shown in the *main* function. Each ship will be added in to a vector of ships. Each of the ships in the vector of ships will take a barage of alternating attacks. Your battle log output will be compared to the output in the file *CorrectOutput.txt*. It must exactly match in order to pass. To pass the test your battle log must look the same and your space ship objects must report the correct lightspeed after each attack. See *main.cpp* for the exact seequence that will be used to generate the battle log. 
 
 You will need to implement child classes in *Eagle5.cpp* and *MillenniumFalcon.cpp*. You will also need to implement the function "void PrintStatus()" in the interface class. 
 
-Your output will be compared to the output in the file *CorrectOutput.txt*. It must exactly match in order to pass. 
-
 Your code will be compiled and run with gcc version 9. 
  
-Your code will use -Wall and -Werror to flag all warnings and errors. 
+Your code will use -Wall and -Werror to catch any errors or warnings. Passing projects will not have any errors or warnings. 
 
 Command to compile on Unix systems - `g++ -Wall -Werror -o test main.cpp src/interface_SpaceShip.cpp src/MillenniumFalcon.cpp src/Eagle5.cpp`
 
