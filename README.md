@@ -38,8 +38,19 @@ This determines how an attack affects speed. When ship's speed reaches zero it i
 | Blaster Cannon | After two hits from a blaster cannon, shields are neutralized and the ship under attack looses 1000 lyph for every shot after     |
 | Raspberry Jam  | Each Raspberry Jam attack reduces speed by half, A ship can take three hits of raspberry jam before it is completely immobilized. |
 
+### Ship Type 
+
+The different ship types have the following special abilities. 
+
+| Ship Type         | Special Ability                                                                                             |
+|-------------------|-------------------------------------------------------------------------------------------------------------|
+| Eagle 5           | Can take an extra hit if the hit is Raspberry Jam, Barf  will clean it up.                                  |
+| Millennium Falcon | The first time you check if the ship is moving, it will  report that it is not moving. Old Smugglers trick. |
+
 ## Requirements
 
-Your ships will be implemented as shown in the main function. Each ship will be added in to a vector of ships. Each of the ships will attack one another until all the ships have been eliminated. The battle log will be reported and compared to the original battle log. To pass the test your battle log must look the same and your space ship objects must report the correct lightspeed after each attack. 
+Your ships will be implemented as shown in the main function. Each ship will be added in to a vector of ships. Each of the ships will attack one another until all the ships have been eliminated. The battle log will be reported and compared to the original battle log. To pass the test your battle log must look the same and your space ship objects must report the correct lightspeed after each attack. See *main.cpp* for the exact seequence that will be used to generate the battle log. 
+
+You will need to implement child classes in *Eagle5.cpp* and *MillenniumFalcon.cpp*. You will also need to implement the function "void PrintStatus()" in the interface class. 
 
 Your code will be compiled and run with gcc version 9. 

@@ -29,8 +29,8 @@ public:
     ~Iface_SpaceShip() = default; 
 
     void PrintStatus(); 
-    virtual void TakeAHit(ArmamentType_t damage) = 0;
-    virtual bool IsStillFlying() = 0;
+    virtual void TakeAHit(ArmamentType_t hitType) = 0;
+    virtual bool IsStillMoving() = 0;
 
 private: 
     const char* mShipName   {""};
